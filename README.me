@@ -1,0 +1,43 @@
+# Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
+
+## Overview
+
+This project implements a real-time data processing system for monitoring weather conditions. It utilizes the OpenWeatherMap API to fetch weather data for major metros in India and provides summarized insights using rollups and aggregates. Users can input city names, set alerting thresholds, and visualize weather trends through graphs and charts.
+
+## Features
+
+- **Real-Time Data Fetching**: Continuously retrieves weather data from the OpenWeatherMap API at configurable intervals.
+- **Weather Metrics**: Displays key weather metrics such as:
+  - Main weather condition (e.g., Rain, Snow, Clear)
+  - Current temperature (°C)
+  - Perceived temperature (°C)
+  - Humidity (%)
+  - Wind speed (m/s)
+  - Maximum and Minimum temperature
+  - Date and time of data update
+- **User Input**: Allows users to input city names to retrieve weather data.
+- **Rollups and Aggregates**: Calculates daily summaries, averages, and trends over time.
+- **Visualizations**: Uses Chart.js or D3.js to create graphs showing temperature trends and humidity levels.
+- **Alerting System**: Users can set thresholds for temperature alerts, which trigger notifications.
+- **Weather Forecasts**: Retrieves and summarizes weather forecasts based on predicted conditions.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Getting Started
+
+### Prerequisites
+
+- A modern web browser
+- An API key from [OpenWeatherMap](https://openweathermap.org/)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+
+Replace the placeholder API key in the JavaScript file with your OpenWeatherMap API key
+const API_KEY = 'your_api_key_here';
